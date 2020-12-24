@@ -1,0 +1,77 @@
+.banner_shipping {
+  height: auto;
+  padding: 5% 0px 1% 0px;
+
+  p.title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  &:before {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+
+  h1 {
+    transform: translate(0%, 0%);
+    position: unset !important;
+    text-align: center;
+  }
+
+  .tab-content {
+    background: white !important;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 999;
+    border-radius: 10px;
+  }
+
+  .tab_content_bottom {
+    box-shadow: unset !important;
+    border: unset !important;
+  }
+
+  .row_select {
+    margin-bottom: 23px !important;
+
+    label span {
+      color: #F61E00;
+    }
+
+  }
+
+  .row_money select {
+    background-image: unset !important;
+  }
+
+  .input_money:after {
+content: "VNĐ";
+    position: absolute;
+    right: 28px;
+    top: 54%;
+    transform: translate(0%, 50%);
+  }
+
+  .col_right {
+    ul {
+      margin-bottom: 40px;
+    }
+
+    label {
+      font-weight: bold;
+       font-size: 24px;
+    }
+
+  }
+
+  .send {
+    margin: 0 !important;
+    float: right;
+    font-size: 30px;
+width:100%;
+max-width:400px;
+    @media(max-width:991px) {
+      font-size: 25px;
+    }
+
+  }
+
+}

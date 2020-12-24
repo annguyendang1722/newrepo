@@ -1,0 +1,143 @@
+.banner_checkcharges {
+    .container {
+        max-width: 1100px;
+
+        @media(min-width:1200px) {
+            padding: 0px;
+        }
+
+        .row_event {
+            label {
+                font-weight: normal !important;
+                font-size: 16px !important;
+            }
+
+        }
+
+        p.title {
+            margin-bottom: 25px;
+        }
+
+    }
+
+    ul.characteristics_of_goods {
+        flex-wrap: wrap;
+        border: 1px solid rgba(0, 0, 0, .125);
+
+        li.current {
+            background: #FFE400;
+        }
+
+        li {
+            div {
+                height: 40px;
+            }
+
+            @media(min-width:1200px) {
+                flex: 0 0 10%;
+                max-width: 10%;
+            }
+
+            padding: 10px 5px;
+            text-align: center;
+            font-size: 12px;
+            display: grid;
+
+            img {
+                margin: 0 auto;
+            }
+
+        }
+
+    }
+
+    .tab_content_bottom {
+        padding: 20px 15px !important;
+
+        .row_select {
+            label {
+                font-weight: normal !important;
+                font-size: 16px !important;
+                height: 0px !important;
+            }
+
+            select {
+                height: 40px !important;
+                background: white;
+            }
+
+        }
+
+    }
+
+    input.send {
+        background: #FCD804;
+        box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        padding: 10px 39px;
+        color: black !important;
+        display: flex;
+        justify-content: center;
+        max-width: 150px !important;
+        margin: 0 auto !important;
+        float: none;
+        font-size: 18px;
+    }
+
+}
+
+.col_right label {
+    margin-bottom: 20px;
+}
+
+.checkcharges {
+    .container {
+        max-width: 1100px;
+    }
+
+    .row_billoflading {
+        border: solid 1px #2F302F;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+        padding: 0px;
+    }
+
+    .col_left {
+        border-radius: unset !important;
+
+        &:after {
+            display: none;
+        }
+
+        .mycell:first-child {
+            font-weight: normal;
+        }
+
+        .mycell {
+            border-bottom: solid 1px #C7C7C7;
+            padding-bottom: 12px;
+            padding-top: 12px;
+            vertical-align: middle;
+
+            img {
+                width: auto;
+                height: auto;
+                filter: brightness(100%);
+                position: unset;
+            }
+
+            a {
+                background: #FCD804;
+                box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
+                font-size: 16px;
+                display: flex;
+                float: right;
+                max-width: 68%;
+                align-items: center;
+                justify-content: center;
+            }
+
+        }
+
+    }
+
+}

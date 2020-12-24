@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, pre, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+}
+
+p {
+  color: black;
+  margin: 0 0 10px 0;
+}
+
+span, p {
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+a {
+  color: #040404;
+  text-decoration: none;
+  transition: 0.15s all;
+}
+
+html body {
+  font-size: 14px;
+  line-height: 1.4;
+  color: black;
+  -ms-overflow-style: scrollbar;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a {
+  font-size: 13px;
+  color: #040404;
+  text-decoration: none;
+  transition: 0.15s all;
+  font-family: 'Roboto';
+}
+
+input, select, a, img {
+  outline: 0px;
+}
+
+@media (min-width:1200px) {
+  h2 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+
+}
+
+h3 {
+  @media (max-width:900px) {
+    font-size: 15px;
+  }
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin-top: 0;
+  font-family: 'Roboto';
+}
+
+@media (max-width:991px) {
+  h1 {
+    font-size: 25px !important;
+  }
+
+}
+
+input[type=submit] {
+  transition: all 0.5s ease 0s !important;
+}
+
+input[type=submit]:hover {
+  transition: all 0.5s ease 0s !important;
+}
+
+@media (min-width:1400px) {
+  .container {
+    max-width: 1441px;
+  }
+
+}
+
+@media (max-width:1200px) and (min-width:991px) {
+  .container {
+    max-width: 1050px;
+  }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .container {
+    max-width: 875px;
+  }
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+  .container {
+    max-width: 700px;
+  }
+
+}
+
+.send {
+  background: #1A1C24;
+  color: #FFE400 !important;
+  border-radius: 10px;
+  text-align: center;
+  border: unset;
+  display: inherit;
+  padding: 20px 20px;
+  width: 28%;
+  font-size: 30px;
+  font-weight: bold;
+
+  @media(max-width:1100px) {
+    width: 60%;
+    font-size: 15px;
+  }
+
+}
