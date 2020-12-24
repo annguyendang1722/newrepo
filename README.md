@@ -1,3 +1,3 @@
 # newrepo
 newrepo
-day la branch abc
+day la branch b2
